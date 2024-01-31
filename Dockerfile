@@ -20,4 +20,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 
-entryPoint ["python", "ERROR: failed to solve: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount435362493/Dockerfile: no such file or directory"]
+entryPoint ["python", "convert_image_to_pdf.py"]
